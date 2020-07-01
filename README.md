@@ -23,6 +23,7 @@ in a package and called with `.C()`
 | Cons           | Too simple for most interesting things                 | Need to understand SEXP & R internals                        |                                                              |
 | Cons           | Performs copying of data to call functions             |                                                              |                                                              |
 | Demo R package | [{simplec}](https://github.com/coolbutuseless/simplec) | [{simplecall}](https://github.com/coolbutuseless/simplecall) | [{simplercpp}](https://github.com/coolbutuseless/simplercpp) |
+| Compiled size  | 17 kB                                                  | 17 kB                                                        | 92 kB                                                        |
 
 ## Installation
 
@@ -113,7 +114,7 @@ simplec:::add_
 #> [1] "add_"
 #> 
 #> $address
-#> <pointer: 0x7fa0c461cd10>
+#> <pointer: 0x7fae55549400>
 #> attr(,"class")
 #> [1] "RegisteredNativeSymbol"
 #> 
